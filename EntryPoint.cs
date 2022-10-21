@@ -3,6 +3,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.PhantomJS;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading;
 
 internal class EntryPoint
@@ -19,7 +20,7 @@ internal class EntryPoint
 
 
 
-        string sitemapUrl = "https://www.xml-sitemaps.com";
+        string sitemapUrl = "http://testing.todvachev.com/sitemap-posttype-post.xml";
         string titleSelector = "#main-content > article > header > h1";
         string contentSelector = "#main-content > article > div";
 
@@ -57,10 +58,21 @@ internal class EntryPoint
                 titleElement = driver.FindElement(By.CssSelector(titleSelector));
                 contentElement = driver.FindElement(By.CssSelector(contentSelector));
 
-                Console.WriteLine(titleElement.Text);
-                Console.WriteLine(contentElement.Text);
+                
+
+                extractedContent.Add(contentElement.Text);
+                extractedTitle.Add(titleElement.Text);
 
 
+            }
+
+            Directory.CreateDirectory(Directory.GetCurrentDirectory() + @"\ExtractedContent");
+
+            using (StreamWriter sw = File.CreateText(Directory.GetCurrentDirectory() + @"\ExtractedContent\ExtractedTest.txt"))
+            {
+                sw.WriteLine("TITLE: {0}", extractedTitle[0]);
+                sw.WriteLine("CONTENT ");
+                sw.Write(extractedContent[0]);
             }
         }
 
