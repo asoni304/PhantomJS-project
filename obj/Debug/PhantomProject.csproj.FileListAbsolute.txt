@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\phantomjs-license.txt
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\PhantomProject.exe.config
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\PhantomProject.exe
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\PhantomProject.pdb
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\WebDriver.dll
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\WebDriver.Support.dll
+C:\Users\User\Desktop\projects\c#\PhantomProject\obj\Debug\PhantomProject.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\projects\c#\PhantomProject\obj\Debug\PhantomProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\projects\c#\PhantomProject\obj\Debug\PhantomProject.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\projects\c#\PhantomProject\obj\Debug\PhantomProject.csproj.CopyComplete
+C:\Users\User\Desktop\projects\c#\PhantomProject\obj\Debug\PhantomProject.exe
+C:\Users\User\Desktop\projects\c#\PhantomProject\obj\Debug\PhantomProject.pdb
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\WebDriver.xml
+C:\Users\User\Desktop\projects\c#\PhantomProject\bin\Debug\WebDriver.Support.xml
